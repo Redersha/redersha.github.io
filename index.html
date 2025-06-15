@@ -6,10 +6,10 @@
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/mechblog_logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/mechblog_logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/mechblog_logo.svg">
+  <link rel="mask-icon" href="/images/mechblog_logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -77,6 +77,9 @@
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -98,6 +101,10 @@
 
 
 
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
 
 
 
@@ -132,9 +139,19 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -153,6 +170,105 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/06/14/20250614/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Mechnology">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="木科博客">
+      <meta itemprop="description" content="有依托乱七八糟玩意的博客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 木科博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/06/14/20250614/" class="post-title-link" itemprop="url">宇宙文明模拟器</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2025-06-14 09:35:57 / 修改时间：09:48:59" itemprop="dateCreated datePublished" datetime="2025-06-14T09:35:57+08:00">2025-06-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Project/" itemprop="url" rel="index"><span itemprop="name">Project</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="宇宙文明模拟器"><a href="#宇宙文明模拟器" class="headerlink" title="宇宙文明模拟器"></a>宇宙文明模拟器</h1><p>详见<a target="_blank" rel="noopener" href="https://github.com/Redersha/Universe-Civilization-Simulation">GitHub</a></p>
+<pre><code>宇宙文明模拟器-README(简中)
+项目简介
+宇宙文明模拟器是一个基于 C++ 的模拟工具，用于分析和预测不同文明的生存指数、发展前途以及在特定条件下的存活情况。项目支持多种模式，并结合动态规划和模拟算法，提供对文明发展的深入分析。
+
+功能特性
+生存指数计算：
+
+根据文明的资源、人口、发展等级等参数，计算其生存指数。
+生存指数反映了文明在当前条件下的生存能力。
+发展前途预测：
+
+通过政治稳定性、社会凝聚力和扩张能力等参数，预测文明的未来发展潜力。
+文明存活模拟：
+
+模拟文明在指定时间内的存活情况，考虑资源消耗、内斗和社会崩溃等因素。
+文件输入支持：
+
+从文件中读取文明数据，支持批量分析多个文明。
+此README由AI编写，具体功能以实际为准。 by GitHub Copilot(GPT-4o).Debugged&amp;Modified by Mechnology.
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -198,7 +314,16 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-06-13 10:05:53" itemprop="dateModified" datetime="2025-06-13T10:05:53+08:00">2025-06-13</time>
+      <time title="修改时间：2025-06-14 09:48:25" itemprop="dateModified" datetime="2025-06-14T09:48:25+08:00">2025-06-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Guide/" itemprop="url" rel="index"><span itemprop="name">Guide</span></a>
+        </span>
     </span>
 
   
@@ -211,7 +336,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="浅谈Minecraft-Java-Edition的多人服务器的部署方式"><a href="#浅谈Minecraft-Java-Edition的多人服务器的部署方式" class="headerlink" title="浅谈Minecraft:Java Edition的多人服务器的部署方式"></a>浅谈Minecraft:Java Edition的多人服务器的部署方式</h1><h2 id="在开始之前"><a href="#在开始之前" class="headerlink" title="在开始之前"></a>在开始之前</h2><p><strong>宇宙免责声明：</strong> <em>这篇文章只是列举一些可行的方法和他们的优势劣势，不是一步步教你怎么操作</em><br><strong>这篇文章的门槛：</strong> 需要你有大量的时间、精力和毅力（最主要的不是钱，有些方案可以一分不花）<br><strong>先定义一下什么是多人服务器：</strong> 多人服务器指的是有一个中央电脑（服务器物理机）运行的一个向多个玩家开放的Minecraft游戏<br><strong>如果你懒：</strong> 建议直接看这个视频：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14SXnYyEit/?spm_id_from=333.788.recommend_more_video.-1">一个视频带你了解Minecraft的5种联机方式！！！</a></p>
+          <h1 id="浅谈Minecraft-Java-Edition的多人服务器的部署方式"><a href="#浅谈Minecraft-Java-Edition的多人服务器的部署方式" class="headerlink" title="浅谈Minecraft:Java Edition的多人服务器的部署方式"></a>浅谈Minecraft:Java Edition的多人服务器的部署方式</h1><h2 id="在开始之前"><a href="#在开始之前" class="headerlink" title="在开始之前"></a>在开始之前</h2><p><strong>宇宙免责声明：</strong> <em>这篇文章只是列举一些可行的方法和他们的优势劣势，不是一步步教你怎么操作</em><br><strong>这篇文章的门槛：</strong> 需要你有大量的时间、精力和毅力（最主要的不是钱，有些方案可以一分不花），需要计算机经验<br><strong>先定义一下什么是多人服务器：</strong> 多人服务器指的是有一个中央电脑（服务器物理机）运行的一个向多个玩家开放的Minecraft游戏<br><strong>如果你懒：</strong> 建议直接看这个视频：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14SXnYyEit/?spm_id_from=333.788.recommend_more_video.-1">一个视频带你了解Minecraft的5种联机方式！！！</a></p>
 <h2 id="方案一：【客户端联机】【无需正版】【不要钱】e4mc模组"><a href="#方案一：【客户端联机】【无需正版】【不要钱】e4mc模组" class="headerlink" title="方案一：【客户端联机】【无需正版】【不要钱】e4mc模组"></a>方案一：【客户端联机】【无需正版】【不要钱】e4mc模组</h2><p><strong>不要钱 操作难度：0&#x2F;10（只要你会安装模组）</strong><br><strong>详见：<a target="_blank" rel="noopener" href="https://www.mcmod.cn/class/10021.html">MCMOD</a></strong><br><strong>适合5人左右的朋友联机</strong><br>其实这个方案不算是真正的服务器，只是联机（服务器是那种腐竹退了服务器还能运行的，联机不是）</p>
 <p>只需要“房主”安装即可。<br>这个方案只是把你的本地存档开放，不过原版的只能在局域网内。这个方案是把你的局域网服务器放到公网，不在同一个局域网的设备也可以一起玩。<br>你需要把在点击“对局域网开放”之后游戏给出的域名分享给你的朋友。</p>
 <p><strong>千万不要在 手机版Java&#x2F;手机模拟PC&#x2F;ARM架构设备上使用。</strong></p>
@@ -265,9 +390,32 @@ Bedrock 版本跨平台游戏：安装 Bedrock 版本的设备和主机
 否
 </code></pre>
 <p>这个不用教程了，看着点就行</p>
-<h2 id="方案四：【全平台】【全天候】【模组服】【要钱】【不要正版】modrinth平台托管"><a href="#方案四：【全平台】【全天候】【模组服】【要钱】【不要正版】modrinth平台托管" class="headerlink" title="方案四：【全平台】【全天候】【模组服】【要钱】【不要正版】modrinth平台托管"></a>方案四：【全平台】【全天候】【模组服】【要钱】【不要正版】modrinth平台托管</h2><p><strong><a target="_blank" rel="noopener" href="https://modrinth.com/servers/">详见官网</a></strong><br><strong>注意！！！！！！！服务器物理机在北美和欧洲，延迟在230-260ms</strong><br><strong>操作难度：5&#x2F;10 （主要是需要银行卡）</strong><br><strong>适合：没啥精力搞搭建服务器，玩模组服</strong><br><strong>优点：大量模组支持，modrinth的模组生态很全面；服务器性能很好</strong><br><strong>缺点：国内延迟高</strong></p>
+<h2 id="方案四：【全平台】【全天候】【适合模组服】【要钱】【不要正版】modrinth平台托管"><a href="#方案四：【全平台】【全天候】【适合模组服】【要钱】【不要正版】modrinth平台托管" class="headerlink" title="方案四：【全平台】【全天候】【适合模组服】【要钱】【不要正版】modrinth平台托管"></a>方案四：【全平台】【全天候】【适合模组服】【要钱】【不要正版】modrinth平台托管</h2><p><strong><a target="_blank" rel="noopener" href="https://modrinth.com/servers/">详见官网</a></strong><br><strong><font color=Red>注意！！！！！！！服务器物理机在北美和欧洲，延迟在230-260ms</font></strong><br><strong>操作难度：5&#x2F;10 （主要是需要银行卡）</strong><br><strong>适合：没啥精力搞搭建服务器，玩模组服</strong><br><strong>优点：大量模组支持，modrinth的模组生态很全面；服务器性能很好</strong><br><strong>缺点：国内延迟高</strong> </p>
 <p>其实curseforge也有，但是教程特别少基本还是英文，并且延迟真的真的真的真的很高</p>
-<p>付费选择：（按月或者按季度）<br><strong>小服务器（适合1-5人）按月付12美元&#x2F;月 按季付10美元&#x2F;月：</strong> 4 GB内存 32 GB存储空间 2个共享CPU 突增多达4 CPU<br><strong>中服务器（适合6-15人）都是15美元&#x2F;月：</strong> 6 GB内存 48 GB存储空间 3个共享CPU 突增多达6个CPU<br><strong>大服务器（适合15-25人）都是20美元&#x2F;月：</strong> 8 GB内存 64 GB存储空间 4个共享CPU 突增多达8个CPU<br>可以用银行卡或者cash app付钱<br>目前没啥教程…自己琢磨罢<br>建议：这个方案可以加一点元素周期表系列的优化模组，可以省一些RAM空间。</p>
+<p>付费选择：（按月或者按季度）<br><strong>小服务器（适合1-5人）按月付12美元&#x2F;月 按季付10美元&#x2F;月：</strong> 4 GB内存 32 GB存储空间 2个共享CPU 突增多达4 CPU<br><strong>中服务器（适合6-15人）都是15美元&#x2F;月：</strong> 6 GB内存 48 GB存储空间 3个共享CPU 突增多达6个CPU<br><strong>大服务器（适合15-25人）都是20美元&#x2F;月：</strong> 8 GB内存 64 GB存储空间 4个共享CPU 突增多达8个CPU<br>可以用银行卡或者cash app付钱<br>目前没啥教程…自己琢磨罢（其实步骤挺简单的）<br>建议：这个方案可以加一点元素周期表系列的优化模组，可以省一些RAM空间。</p>
+<p><font color=Red>默认服务器会开启正版验证，所以你要关掉才能用非正版号玩（要在开服前确定是仅正版还是都行，开了之后不要改！）</font></p>
+<h2 id="方案五：【适用范围广】【全平台】【全天候】【要钱】【不要正版】frp-本地电脑自搭"><a href="#方案五：【适用范围广】【全平台】【全天候】【要钱】【不要正版】frp-本地电脑自搭" class="headerlink" title="方案五：【适用范围广】【全平台】【全天候】【要钱】【不要正版】frp+本地电脑自搭"></a>方案五：【适用范围广】【全平台】【全天候】【要钱】【不要正版】frp+本地电脑自搭</h2><p><strong>操作难度：7&#x2F;10</strong><br><strong>适合：大型，多人</strong><br><strong>优点：不要钱，适用范围广，云服务器&#x2F;FRP时长优惠多</strong><br><strong>缺点：需要本地的高性能电脑，管理比较麻烦</strong></p>
+<p>就是把你的本地电脑加上内网穿透（如果你有公网IP就不用内网穿透，不过延迟比较玄学），在这个本地电脑上搭建服务器和环境就行。</p>
+<p>下面是对于本地电脑的性能要求：</p>
+<pre><code>系统：Windows 10 22H1及以上 或者Windows Server 2022
+
+流畅使用的内存（根据人数和模组定，这里说的是服务器端模组！！ 具体情况根据服务器的玩法定）：
+    5人左右无模组：6GB RAM-DDR3 1600MHZ或更新规格
+    5人左右有模组：8GB RAM-DDR3 1600MHZ或更新规格
+    10人左右：16GB RAM-DDR3 2400MHZ或更新规格
+    20人左右（算是中大型服）：32GB（最好不要组四根）RAM-DDR4 2666MHZ（默认是不到这个频率的）
+    更多：找专业的服务器运营团队罢 或者整一个老点的工作站
+
+显卡：不需要，服务器不吃物理机的画面算力，整个亮机卡就行
+
+CPU：其实CPU很难说，但是主要就两点：
+    如果你不怕逆天电费/逆天风扇噪声 可以买那些老志强并且超频打鸡血（发售时间不能早于2014，不然系统都很难跑起来）
+    如果你不怕价格问题，考虑13代i5 i7，虽然有缩缸但是目前解决了
+    如果只是心血来潮没几个朋友就拿自己的日常电脑基本够用（别拿那种上古笔记本！）
+</code></pre>
+<p>然后是服务器搭建，直接看这里：<a target="_blank" rel="noopener" href="https://nitwikit.8aka.cn/Java/server-core-choose/">核心选择 | 笨蛋 MC 开服教程</a></p>
+<p>然后加上FRP，目前推荐:<br>SakuraFrp（只要一块钱实名就能用，而且原生支持Liunx，SakuraFrp+Minecraft的教程也很多）<br>OpenFrp<br><strong>其他都别用，都是长得不符合人的生理构造，但是火星人可以试试</strong></p>
+<h2 id="方案六：【简单】【低成本】【限制多】面板"><a href="#方案六：【简单】【低成本】【限制多】面板" class="headerlink" title="方案六：【简单】【低成本】【限制多】面板"></a>方案六：【简单】【低成本】【限制多】面板</h2><p>怎么说呢，这个就是一键托管开服。</p>
 
       
     </div>
